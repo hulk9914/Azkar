@@ -17,7 +17,7 @@ import android.widget.CursorAdapter;
 public class AzkarActivity extends Activity implements OnClickListener {
 	//Cursor model ;
 	//ZekerAdapter zekeradapter ;
-	Button zkr_adoo,zkr_afterahl,zkr_afterdafn,zkr_aftereating,zkr_afterendbaet,zkr_aftermatar,zkr_aftersalam,
+	Button[] = new Button{zkr_adoo,zkr_afterahl,zkr_afterdafn,zkr_aftereating,zkr_afterendbaet,zkr_aftermatar,zkr_aftersalam,
 	zkr_afterwdoo,zkr_alaaladoo,zkr_aldayeftosahebaltaam,zkr_alham,zkr_amrsaar,zkr_amrysoroh,zkr_arafa,	zkr_atahmaysrawyakrah,
 	zkr_azan,zkr_baenalymanwalaswd,	zkr_bakooratalthmr,	zkr_beforeating,	zkr_beforewdoo,	zkr_betweensgdteen,	zkr_doaaaftertshahood,	zkr_doaamaeetinsalaa,
 	zkr_doaatomngalgafr,	zkr_efshaaalsalam,	zkr_eftaralsayeem,	zkr_egmadalmaeet,	zkr_endalfaza,	zkr_enteralkhlaa,
@@ -117,7 +117,7 @@ public class AzkarActivity extends Activity implements OnClickListener {
 	zkr_yoseebbayneh,
 	zkr_zabh,
 	zkr_zeyartalgboor,
-	zkr_zokymoslem;
+	zkr_zokymoslem};
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
